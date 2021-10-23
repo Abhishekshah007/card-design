@@ -1,2 +1,1 @@
-# card-design
-just simple html css card design
+<!-- just enjoy whaever you do -->

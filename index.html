@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    /* /* div {
+  width: 200px;
+  border: 1px solid #2d2d2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+    body {
+      background-color: hsl(225, 100%, 94%);
+    }
+
+    .container {
+
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      margin-top: 8%;
+    }
+
+    .card-box {
+      background: #FFFFF0;
+      width: 340px;
+      height: 500px;
+      border-radius: 20px;
+    }
+
+    .sub-card {
+
+      display: flex;
+      background: hsl(225, 100%, 98%);
+      justify-content: space-around;
+      align-items: center;
+      margin: 16px;
+      border-radius: 10px;
+
+    }
+
+    .submit {
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+    button {
+      cursor: pointer;
+      text-align: center;
+      font-weight: 700;
+      color: whitesmoke;
+      background-color: hsl(245, 75%, 52%);
+      width: 273px;
+      ;
+      height: 40px;
+      border-radius: 10px;
+    }
+
+    .card-box,
+    button {
+      box-shadow:
+        1px 2px 2px hsl(220deg 60% 50% / 0.2),
+        2px 4px 4px hsl(220deg 60% 50% / 0.2),
+        4px 8px 8px hsl(220deg 60% 50% / 0.2),
+        8px 16px 16px hsl(220deg 60% 50% / 0.2),
+        16px 32px 32px hsl(220deg 60% 50% / 0.2);
+      ;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="card-box">
+      <img src="./images/illustration-hero.svg" alt="img" width="340px"
+        style="border-top-left-radius: 20px; border-top-right-radius: 20px">
+
+      <div class="card-content" style="
+      margin: 16px;
+  ">
+        <p style="
+      text-align: center;
+      font-weight: 900;
+      font-size: 22px;
+      margin-bottom: 0px;
+  ">Order Summary</p>
+        <p style="
+     text-align: center;
+     font-size: 17px;
+     color: gray;
+ "> You can now listen to millions of songs, audiobooks, and podcasts on any
+          device anywhere you like!
+        </p>
+
+        <div class="sub-card">
+          <img src="./images/icon-music.svg" alt="" srcset="">
+          <p style="margin-right: 25%;">Annual Plan<br>
+            $59.99/year</p>
+          <p class="change" style="text-decoration: underline; cursor: pointer;">change</p>
+
+        </div>
+
+        <div class="submit">
+          <button> Proceed to Payment</button>
+          <h5 style="font-weight: 700px; cursor: pointer;">Cancel Order</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution" style="margin-top: 40px;">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Abhishek Shah</a>.
+  </div>
+</body>
+
+</html>
